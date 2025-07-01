@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body{
+  background-color: white;
+  width: 100%;
+}
+.container {
+  width: 100%;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  border-bottom: 1px solid #ccc;
+  /* margin-bottom: 70px; */
+}
+
+.logo {
+  color: #7e22ce;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+a.home {
+  color: #7e22ce;
+}
+
+.login-btn {
+  background-color: #7e22ce;
+  color: white;
+  border: none;
+  padding: 9px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  /* margin-top: 10px; */
+}
+
+.left {
+  max-width: 450px;
+  margin-bottom: 100px;
+}
+
+.intro {
+  font-size: 50px;
+  /* margin-bottom: 2px; */
+}
+
+.title {
+  font-size: 55px;
+  font-weight: bold;
+  color: black;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.desc {
+  font-size: 15px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.discover-btn {
+  margin-top: 25px;
+  padding: 10px 25px;
+  background-color: #7e22ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-img {
+  width: 500px;
+  height: auto;
+  margin-top:5%;
+  margin-left: 410px;
+}
