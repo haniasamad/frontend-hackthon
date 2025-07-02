@@ -11,7 +11,7 @@ const Register = () => {
     const [password, setPassword] = useState(0)
     
   function handleSubmit(){
-    axios.post("http://localhost:5000/" ,{
+    axios.post("https://vercel.com/hania-samads-projects/bakend-hackathon-phtb/2aoeVzXrsR43J55wduMz57ej9uXr" ,{
       name,
       email,
       age,
